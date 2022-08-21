@@ -18,6 +18,26 @@ inputs:
     type: text
     name: wordpress_plugin_name
     default: wp-stackspot-plugin
+  - label: "Wordpress :: Plugin URI"
+    type: text
+    name: wordpress_plugin_uri
+    default: "https://www.your-site.com/"
+  - label: "Wordpress :: Plugin Description"
+    type: text
+    name: wordpress_plugin_description
+    default: "Plugin description"
+  - label: "Wordpress :: Plugin Version"
+    type: text
+    name: wordpress_plugin_version
+    default: "0.1"
+  - label: "Wordpress :: Plugin Author"
+    type: text
+    name: wordpress_plugin_author
+    default: "your-name"
+  - label: "Wordpress :: Plugin Author URI"
+    type: text
+    name: wordpress_plugin_author_uri
+    default: "https://www.your-site.com/"
 
 computedInputs:
   wordpress_plugin_name_lowercase: "{{ wordpress_plugin_name.lower().replace(' ', '-') }}"
