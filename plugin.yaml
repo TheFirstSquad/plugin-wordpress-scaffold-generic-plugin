@@ -40,4 +40,5 @@ inputs:
     default: "https://www.your-site.com/"
 
 computedInputs:
+  base_path: "{% if global_computed_inputs.src_base_path is defined and global_computed_inputs.src_base_path != '' %}{{global_computed_inputs.src_base_path}}{% else %}{{'.'}}{% endif %}"
   wordpress_plugin_name_lowercase: "{{ wordpress_plugin_name.lower().replace(' ', '-') }}"
