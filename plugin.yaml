@@ -1,6 +1,6 @@
 name: wordpress-scaffold-generic-plugin
 description: "Stack Wordpress :: Plugin :: Generate a generic structure for a Wordpress Plugin"
-display-name: wordpress-scaffold-generic-plugin
+display-name: "Wordpress Scaffold Generic Plugin"
 picture: plugin.png
 category: backend # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
 compatibility:
