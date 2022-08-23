@@ -17,7 +17,7 @@ inputs:
   - label: "Wordpress :: Plugin Name"
     type: text
     name: wordpress_plugin_name
-    default: wp-stackspot-plugin
+    default: stackspot-plugin
   - label: "Wordpress :: Plugin URI"
     type: text
     name: wordpress_plugin_uri
